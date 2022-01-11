@@ -1,0 +1,26 @@
+body{
+  background-color: beige;
+}
+main{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+#one{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 55px 55px 55px 55px;
+}
+img{
+  grid-column-start: 2;
+}
+#two{
+  display:grid;
+  grid-template-columns: 5fr 1fr 5fr;
+}
+#p2{
+  grid-column-start: 3;
+}
+ul{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
